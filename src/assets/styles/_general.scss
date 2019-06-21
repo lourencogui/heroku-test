@@ -1,0 +1,74 @@
+$white: #fff;
+$primaryBlue: #18acc4;
+$secondaryBlue: #007a8d;
+$primaryYellow: #fdcb13;
+$secondaryYellow: #de9e1f;
+$green: #0fa866;
+$blackText: #1f2d30;
+$primaryGray: #fbfbfb;
+$secondaryGray: #f0f0f0;
+$dark: #7d7d7d;
+$bgDark: #fbfbfb;
+$modalOverlay: rgba(31, 45, 48, 0.8);
+
+.text {
+  &--primary {
+    color: $primaryBlue;
+  }
+
+  &--secondary {
+    color: $secondaryBlue;
+  }
+
+  &--green {
+    color: $green;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--lightWeight {
+    font-weight: 100;
+  }
+
+  &--light {
+    color: $white;
+  }
+
+  &--xs {
+    font-size: 0.6rem;
+  }
+
+  &--s {
+    font-size: 0.8rem;
+  }
+
+  &--m {
+    font-size: 1rem;
+  }
+
+  &--lg {
+    font-size: 1.2rem;
+  }
+
+  // &--xl{
+  //   font-size: 1.8rem;
+
+  // }
+}
+
+.select {
+  height: 2.2rem;
+  border-radius: 3px;
+  border: 2px solid $secondaryGray;
+
+  &--text {
+    border: 0;
+    color: $secondaryBlue;
+  }
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+}
